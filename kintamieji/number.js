@@ -53,5 +53,23 @@ console.log( exp1, exp2, exp3 )
 
 // 2**2 kelimas laipsniu
 
+const begalybe = Infinity;
+const minusbegalybe = -Infinity
+console.log(begalybe)
+console.log(minusbegalybe)
 
+const x = 5 / 0 ;
+const k = -5 / 0 ;
 
+console.log(x)
+console.log(k)
+
+// not-a-number = NaN
+const n = NaN
+console.log(n, NaN)
+
+const liekana = 7 / 5
+console.log(liekana)
+
+const tikliekana = 7 % 5
+console.log(tikliekana)
