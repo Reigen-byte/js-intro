@@ -65,8 +65,8 @@ console.log(x)
 console.log(k)
 
 // not-a-number = NaN
-const n = NaN
-console.log(n, NaN)
+const num = NaN
+console.log(num, NaN)
 
 const liekana = 7 / 5
 console.log(liekana)
