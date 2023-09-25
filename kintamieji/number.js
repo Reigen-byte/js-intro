@@ -73,3 +73,111 @@ console.log(liekana)
 
 const tikliekana = 7 % 5
 console.log(tikliekana)
+
+console.clear();
+
+let wallet = 0
+wallet = wallet + 5
+console.log('wallet:', wallet)
+
+wallet += 5;
+wallet += 5;
+wallet += 5
+console.log('wallet:', wallet)
+
+wallet = wallet - 2
+console.log('wallet:', wallet)
+
+wallet -= 2
+console.log('wallet:', wallet)
+
+wallet = wallet * 4
+console.log('wallet:', wallet)
+
+wallet += 2
+wallet *= 4
+console.log('wallet:', wallet)
+
+wallet += 1
+wallet /= 5
+
+console.log('wallet:', wallet)
+
+wallet = wallet **2
+console.log('wallet:', wallet)
+
+wallet %= 10
+console.log('wallet:', wallet)
+
+const skaicius = 256;
+const daliklis = 10
+const liekana3 = skaicius % daliklis;
+console.log(liekana3)
+const sveikaDalis = (skaicius - liekana3) / daliklis;
+console.log(sveikaDalis)
+
+console.clear()
+
+let index = 0
+console.log('index:', index)
+
+
+index = index + 1
+console.log('index:', index)
+
+index = index + 1
+console.log('index:', index)
+
+index = index + 1
+console.log('index:', index)
+
+index = index + 1
+console.log('index:', index)
+
+index ++
+console.log('index:', index)
+
+++index
+console.log('index:', index)
+
+let i = 0;
+console.log(i);
+console.log(i++)
+console.log(i);
+console.log(i++);
+console.log(i);
+
+console.log(`------------------`);
+
+let i2 = 0
+console.log(++i2);
+console.log(++i2);
+console.log(++i2);
+console.log(++i2);
+console.log(++i2);
+
+console.log(`------------------`);
+
+let m = 0;
+console.log(m--);
+console.log(m--);
+console.log(m--);
+console.log(m--);
+console.log(m);
+console.log(m);
+
+console.log(`------------------`);
+
+let m2 = 0
+console.log(--m2);
+console.log(--m2);
+console.log(--m2);
+console.log(--m2);
+console.log(--m2);
+console.log(m);
+console.log(m);
+
+console.log(`------------------`);
+
+console.clear()
+
