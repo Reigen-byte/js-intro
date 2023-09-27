@@ -1,12 +1,20 @@
 /*
 IF - palyginimo sakinys, salyga
 
-Kodo sablonai
+Palyginimo operatoriai:
+- visi >, <, ==, ===,>, <, ==, !=, !==
+- naudotini >, <, ==, >, <, ==,
+- nenaudotini ==, !=
 
-if () {}
-if () {} else {}
-if () {} else if () {}
-if () {} ... else if () {} ...else {}
+Loginiai operatoriai
+
+- &&, ||, !
+
+Kodo sablonai
+- if () {}
+- if () {} else {}
+- if () {} else if () {}
+- if () {} ... else if () {} ...else {}
 */
 
 console.clear();
@@ -96,7 +104,75 @@ if ( diena === 1 ) {
 }
 
 
+/*
+Gali buti:
+- diena/naktis
+- lyja/nelyja
+*/
 
+const parosMetas = 'naktis';
+const arLyja = true;
+const temp = 25;
+const kadaSilta = 20;
+const arAsSuStriuke = true;
 
+if (parosMetas === 'diena') {
+    if (arLyja) {
+        console.log('Einam sokti lietuje')
+    } else {
+        console.log('Eiline diena rojuje');
+    }
+} else {
+    if (arLyja) {
+        console.log('Sedim Namie');
+    } else {
+        console.log('Galim eiti zvaigzdziu paziuret');
+    }
+}
 
+if (parosMetas === 'diena' && arLyja === true && temp >= kadaSilta) {
+    console.log('Einam sokti lietuje');
+} else if (parosMetas === 'diena' && arLyja === true && temp <= kadaSilta) {
+        console.log('Saltas lietus, niekur neisiu sokti');
+    } else if (parosMetas === 'diena' && arLyja === false >= kadaSilta) {
+        console.log('Eiline diena rojuje');
+    } else if (parosMetas === 'diena' && arLyja === false) {
+    console.log('Eiline diena rojuje');
+ } else if (parosMetas === 'naktis' && arLyja === true) {
+    console.log('Sedim Namie');
+    }   else if (parosMetas === 'naktis' && arLyja === false) {
+    console.log('Galim eiti zvaigzdziu paziuret');
+    }
 
+console.clear()
+
+const g = 7
+const h = 5
+
+if ( g !== h ) {
+    console.log('Ne lygu');
+} else {
+    console.log('lygu');
+}
+
+if ( 7 == '7') {
+    console.log('aaaaaa');
+} else {
+    console.log('bbbbb');
+}
+
+const w = 'a';
+const e = 'A';
+
+if (w > e) {
+    console.log('Daugiau')
+} else {
+    console.log('Maziau');
+}
+// !true - ne true
+// !false - ne false
+if (true) {
+    console.log('gg');
+} else {
+    console.log('fail');
+}
