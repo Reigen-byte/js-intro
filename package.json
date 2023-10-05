@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ternary" : "nodemon ./palyginimas/ternary.js",
     "arrow":"nodemon ./funkcijos/arrow.js",
     "method:array":"nodemon ./method/array.js",
     "uzd:vardas":"nodemon ./uzd/vardas.js",
