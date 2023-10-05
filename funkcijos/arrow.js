@@ -54,3 +54,25 @@ function firstLetter (str) {
     }
     return str[0]
 }
+
+
+    const firstLetter5 = str => typeof str !== 'string' 
+        ? 'Error: first param has to be a string type'
+        : str.length === 0
+            ? 'Error: first param has to be non-epmty string'
+            : str[0]
+
+
+console.log(firstLetter5('Labas'))
+
+function firstLetter6 (str) {
+    if (typeof str !== 'string') {
+        return 'Error: first param has to be a string type'
+    }
+    if (str.length === 0) {
+        return 'Error: first param has to be non-epmty string'
+    }
+    return str[0]
+}
+
+console.log(firstLetter6('Labas'))
