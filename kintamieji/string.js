@@ -9,31 +9,31 @@ Teksto ilgis = kintamasis.length
 console.clear();
 
 const txt = "tekstas";
-console.log(txt)
+console.log(txt);
 
 const txt2 = 'tekstas 2';
-console.log(txt2)
+console.log(txt2);
 
 // Vienguba kabute (')
 
 const kabute1 = "Vieguba kabute(')" ;
-console.log(kabute1)
+console.log(kabute1);
 
 // Dviguba kabute
 
 const kabute2 = 'Dviguba kabute(")' ;
-console.log(kabute2)
+console.log(kabute2);
 
 // Vienguba (') ir Dviguba ("") kabutes
 
 const kabute12 = "Vienguba (') ir dviguba (\") kabutes";
-console.log(kabute12)
+console.log(kabute12);
 
 const kabute21 = 'Vienguba (\') ir dviguba (") kabutes';
-console.log(kabute21)
+console.log(kabute21);
 
 const kabute3 = "Vienguba (\') ir dviguba (\") kabutes";
-console.log(kabute3)
+console.log(kabute3);
 
 const back = "\\\\";
 console.log(back);
