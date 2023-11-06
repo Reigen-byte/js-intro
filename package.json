@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "destruct":"nodemon ./kintamieji/destruct.js",
     "uzd:pazymiai":"nodemon ./uzd/pazymiai.js",
     "ternary" : "nodemon ./palyginimas/ternary.js",
     "arrow":"nodemon ./funkcijos/arrow.js",
