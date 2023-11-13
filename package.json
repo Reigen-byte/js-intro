@@ -12,6 +12,8 @@
     "arrow":"nodemon ./funkcijos/arrow.js",
     "method:array-loops":"nodemon ./method/array-loops.js",
     "method:array":"nodemon ./method/array.js",
+    "uzd:tekstas":"nodemon ./uzd/tekstas.js",
+    "uzd:skaiciai":"nodemon ./uzd/skaiciai.js",
     "uzd:vardas":"nodemon ./uzd/vardas.js",
     "uzd:tarpai":"nodemon ./uzd/tarpai.js",
     "method:string":"nodemon ./method/string.js",
